@@ -1,5 +1,4 @@
 Flask
-json
 transformers
 typing
 faiss-cpu
