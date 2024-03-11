@@ -38,7 +38,7 @@ llm = ChatOpenAI(
 )
 
 # llm.invoke('8只兔子有多少条腿？')
-loader = TextLoader("/FAQ.txt",encoding='utf-8')
+loader = TextLoader("FAQ.txt",encoding='utf-8')
 documents = loader.load()
 text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
 docs = text_splitter.split_documents(documents)
