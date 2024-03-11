@@ -1,0 +1,9 @@
+Flask
+json
+transformers
+typing
+faiss-cpu
+modelscope
+fastapi
+pydantic
+openai
